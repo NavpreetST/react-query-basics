@@ -8,7 +8,7 @@ import { Error } from './error';
 import { Navbar } from './pages/navbar';
 import { States } from './pages/stateManagement';
 import { ChangeProfile } from './pages/ChangeProfile';
-import {QueryClient, QueryClientProvider} from "@tankstack/react-query";
+import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 function App() {
   const client = new QueryClient() ;
   return (
